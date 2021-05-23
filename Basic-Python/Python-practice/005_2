@@ -1,0 +1,11 @@
+"""
+实例 005：三数排序 题目 输入三个整数 x,y,z，请把这三个数由小到大输出
+
+直接使用python内置函数排序
+"""
+raw=[]
+for i in range(3):
+    x = int(input('please input %dth : '%(i)))
+    raw.append(x)
+
+print(sorted(raw))

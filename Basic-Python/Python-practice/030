@@ -1,0 +1,22 @@
+"""
+实例 030：回文数
+
+题目 一个 5 位数，判断它是不是回文数。
+
+即 12321 是回文数，个位与万位相同，十位与千 位相同。 
+"""
+
+def isPrim(n):
+    a = 0
+    b = len(n)-1
+    while a < b:
+        if n[a] != n[b]:
+            return 0
+        a,b = a+1,b-1
+    return 1
+
+n = input('input a number:')
+if isPrim(n):
+    print("Yes")
+else:
+    print("No")

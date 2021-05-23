@@ -1,0 +1,18 @@
+"""
+实例 037：排序
+
+题目 对 5 个数进行排序。
+
+冒泡排序
+"""
+
+raw=[]
+for i in range(5):
+    x = int(input('please input %d:'%(i)))
+    raw.append(x)
+
+for i in range(len(raw)):
+    for j in range(i,len(raw)):
+        if raw[i] > raw[j]:
+            raw[i],raw[j] = raw[j],raw[i]
+print(raw)

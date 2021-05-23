@@ -1,0 +1,19 @@
+"""
+实例 006：斐波那契数列
+ 
+斐波那契数列（Fibonacci sequence），从 1,1 开始，后面每一项等于前面两项之和
+"""
+
+def Fib(n):
+    return 1 if n <= 2 else Fib(n-1) + Fib(n-2)
+
+n = int(input("please input a number : "))
+print(Fib(n))
+
+"""
+target = int(input("please input a number : "))
+res = 0
+a,b = 1,1
+for i in range(target-1):
+    a,b = b,a+b
+print(a)

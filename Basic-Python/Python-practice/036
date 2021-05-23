@@ -1,0 +1,19 @@
+"""
+实例 036：算素数
+
+题目 求 100 之内的素数
+"""
+def isPrim(n):
+    if n <= 2:
+        return False
+    i = 2
+    while i * i <= n:
+        if n % i == 0:
+            return False
+        i += 1
+    return True
+
+for i in range(2,101):
+    if True == isPrim(i):
+        print(i)
+    

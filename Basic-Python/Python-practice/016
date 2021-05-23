@@ -1,0 +1,21 @@
+"""
+实例 016：输出日期
+
+题目 输出指定格式的日期。 
+"""
+
+import datetime
+print(datetime.date.today())
+print(datetime.date(2333,2,3))
+print(datetime.date.today().strftime('%d/%m/%Y'))
+day=datetime.date(1111,2,3)
+day=day.replace(year=day.year+22)
+print(day)
+
+"""
+运行结果：
+2019-09-08
+2333-02-03
+08/09/2019
+a1133-02-03
+"""

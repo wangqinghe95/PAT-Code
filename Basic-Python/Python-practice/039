@@ -1,0 +1,21 @@
+"""
+实例 039：有序列表插入元素
+
+题目 有一个已经排好序的数组。现输入一个数，要求按原来的规律将它插入数组中。
+
+思路：把要插入的数放在列表数组最后，然后从头开始遍历列表
+
+找到大于这个数的位置，然后把这个数以后的所有数往后移一位
+"""
+
+list = [1,10,100,1000,10000,100000]
+n = int(input('insert a number:'))
+
+list.append(n)
+for i in range(len(list)-1):
+    if list[i] >= n:
+        for j in range(i,len(list)):
+            list[j],list[-1] = list[-1],list[j]
+        break
+
+print(list)

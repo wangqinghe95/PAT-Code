@@ -1,0 +1,16 @@
+"""
+实例 046：打破循环 题目 求输入数字的平方，如果平方运算后小于 50 则退出
+"""
+
+while True:
+    try:
+        n = float(input('输入一个数字：'))
+    except:
+        print('输入有误')
+        continue
+
+    dn = n ** 2
+    print("Square of n is : ",dn)
+    if dn < 50:
+        print("Square less than 50, then exit")
+        break

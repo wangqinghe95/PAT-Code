@@ -1,0 +1,18 @@
+"""
+实例 040：逆序列表 题目 将一个数组逆序输出。 
+ 
+程序分析 依次交换位置，或者直接调用 reverse 方法
+"""
+
+list = [1,10,100,1000,10000,100000]
+
+for i in range(int(len(list)/2)):
+    list[i],list[len(list) -1 - i] = list[len(list) -1 - i],list[i]
+print("The first way :")
+print(list)
+
+list = [1,10,100,1000,10000,100000]
+
+print("The second way :")
+list.reverse()
+print(list)
