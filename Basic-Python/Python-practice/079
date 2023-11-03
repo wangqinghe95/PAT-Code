@@ -1,8 +1,0 @@
-"""
-实例 079：字符串排序
-
-题目 字符串排序
-"""
-I = ['baaaaa','aaaab','aaaaa','abaa']
-I.sort()
-print(I)

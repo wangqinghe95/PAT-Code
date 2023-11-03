@@ -1,13 +1,12 @@
-# 项目介绍
-+ Advanced-C++ 是 PAT 习题中甲级难度习题，用C++ 写的
-+ Basic-Python 是 PAT习题中乙级难度的习题，用 python 写的
+# PTA
++ 原名 PAT, 由浙大举办的一个编程能力考试，上机编程题类似牛课网，leetcode。
+
+## 项目介绍
++ [Advanced-C++](./Advanced-C++/README.md)
++ [Basic-Python](./Basic-Python/)
 + mooc-2019-code 是浙大在 mooc 网的线上数据结构哦课程配套的习题，我做的是 2019 年秋的
 
-# 链接地址：
+## 链接地址：
 + [甲级习题地址](https://pintia.cn/problem-sets/994805342720868352/problems/type/7)
 + [乙级习题地址](https://pintia.cn/problem-sets/994805260223102976/problems/type/7)
 + mooc 网上配套习题需要报名课程输入邀请码才能进去
-
-# 关于 PAT
-+ PAT 是浙大举办的一个面向编码的编程能力考试，而且它的甲级成绩可以等效代替第二年浙大计算机考研的上机的机试成绩。除此之外，头部IT公司对于甲级优秀成绩的同学会有一个额外的面试机会。
-+ mooc 网配套习题是浙大计算机系的两位老师在 mooc 网上开通的一个针对数据结构的课程的配套练习，每年有春季、秋季两个班，内容和习题基本一样。

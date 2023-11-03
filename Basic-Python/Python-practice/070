@@ -1,9 +1,0 @@
-"""
-实例 070：字符串长度 II
-
-题目 写一个函数，求一个字符串的长度，在 main 函数中输入字符串，并输出其长度。 
-"""
-
-def LenOfStr(s):
-      return len(s)
-print(LenOfStr('wangqinghe'))
