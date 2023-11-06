@@ -1,2 +1,5 @@
 # PAT-Advanced-C/C++
-+ [Advanced](https://pintia.cn/problem-sets/994805342720868352/problems/type/7)
++ [Advanced-Level-PAT](https://pintia.cn/problem-sets/994805342720868352/problems/type/7)
+
+## 题目简介
++ [A1080-学校根据成绩录取学生](./A1080.cpp)
