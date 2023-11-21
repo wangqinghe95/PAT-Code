@@ -1,3 +1,4 @@
 .vscode
 Advanced-C++/out/*
 Advanced-C++/compile.sh
+*.out
