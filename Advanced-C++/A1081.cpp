@@ -13,7 +13,7 @@ int gcd(int a, int b) {
 
 void reduction(Fraction& result)
 {
-    if(result.up < 0) {
+    if(result.down < 0) {
         result.down = -result.down;
         result.up = -result.up;
     }
