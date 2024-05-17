@@ -5,7 +5,8 @@ using namespace std;
 /**
  * 提交结果，三个正确，三个运行超时
  * 思路没问题
- * 
+ * A1151 通过
+ * 三个超时仅仅是因为给的时间是 200ms，要求使用 BST 特性
 */
 namespace Solution_1
 {
