@@ -2,3 +2,5 @@
 Advanced-C++/out/*
 Advanced-C++/a.out
 *.out
+Advanced-C++/build/*
+Advanced-C++/output/*
